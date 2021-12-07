@@ -1,6 +1,6 @@
 const inputs = document.querySelectorAll(".angle-input");
-const isTrianglebtn = document.getElementById("is-triangle-btn");
-const outputEl = document.getElementById("output");
+const isTrianglebtn = document.querySelector("#is-triangle-btn");
+const outputEl = document.querySelector("#output");
 
 function calculateSumOfAngles(angle1, angle2, angle3) {
   const sumOfAngles = angle1 + angle2 + angle3;
