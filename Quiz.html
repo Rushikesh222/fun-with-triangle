@@ -4,49 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Triangle Quiz</title>
   </head>
   <body>
-    <h1>Triangle Quiz</h1>
-    <form class="quiz-form">
-      <div class="question-container">
-        <p>
-          What is the name of a triangle with two equal vertices and one
-          different vertice?
-        </p>
-        <label
-          ><input type="radio" name="question1" value="Plato" />Plato</label
-        >
-        <label
-          ><input
-            type="radio"
-            name="question1"
-            value="Isosceles"
-          />Isosceles</label
-        >
-        <label
-          ><input
-            type="radio"
-            name="question1"
-            value="Aristotle"
-          />Aristotle</label
-        >
-      </div>
-      <div class="question-container">
-        <p>This type of triangle has one 90 degree angle?</p>
-        <label
-          ><input type="radio" name="question2" value="Obtuse" />Obtuse</label
-        >
-        <label
-          ><input type="radio" name="question2" value="Acute" />Acute</label
-        >
-        <label
-          ><input type="radio" name="question2" value="Right" />Right</label
-        >
-      </div>
-    </form>
-    <button id="submit-answer-btn">Submit Answer</button>
-    <div id="output"></div>
+    <nav>
+      <h3><a href="./isTriangle.html"> Triangle</a></h3>
+      <h3><a href="./hypotenuse.html">hypotenuse</a></h3>
+      <h3><a href="./Quiz.html">Quiz</a></h3>
+    </nav>
+    <div class="container">
+      <h1>Triangle Quiz</h1>
+      <form class="quiz-form">
+        <div class="question-container">
+          <p>
+            What is the name of a triangle with two equal vertices and one
+            different vertice?
+          </p>
+          <label
+            ><input type="radio" name="question1" value="Plato" />Plato</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question1"
+              value="Isosceles"
+            />Isosceles</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question1"
+              value="Aristotle"
+            />Aristotle</label
+          >
+        </div>
+        <div class="question-container">
+          <p>This type of triangle has one 90 degree angle?</p>
+          <label
+            ><input type="radio" name="question2" value="Obtuse" />Obtuse</label
+          >
+          <label
+            ><input type="radio" name="question2" value="Acute" />Acute</label
+          >
+          <label
+            ><input type="radio" name="question2" value="Right" />Right</label
+          >
+        </div>
+      </form>
+      <button id="submit-answer-btn">Submit Answer</button>
+      <div id="output"></div>
+    </div>
     <script src="./Quiz.js"></script>
   </body>
 </html>
