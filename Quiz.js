@@ -1,7 +1,15 @@
 const quizForm = document.querySelector(".quiz-form");
 const submitAnswerBtn = document.querySelector("#submit-answer-btn");
 const outputEl = document.querySelector("#output");
-const correctAnswer = ["Isosceles", "Right"];
+const correctAnswer = [
+  "Isosceles",
+  "Right",
+  "3 : 4",
+  "12cm",
+  "125degree",
+  "35°",
+  "96",
+];
 function calculateScore() {
   let score = 0;
   let index = 0;
